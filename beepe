@@ -5,9 +5,9 @@ var tails = 0;
 function click() {  
     x = (Math.floor(Math.random() * 2) == 0);
     if(x){
-    	flip("heads");
+    	flip("hatch");
     }else{
-        flip("tails");
+        flip("sell");
     }
 };
 function flip(coin) {
